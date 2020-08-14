@@ -34,7 +34,11 @@ public class TestMaximumTest {
 	public void Maximum_Float_number_At_First_Position() {
 		TestMaximum maximumFloatNumber = new TestMaximum(3.9f, 2.8f, 1.6f);
 		float maximum = (float) maximumFloatNumber.testMaximum();
+<<<<<<< HEAD
 		Assert.assertEquals(3.9f, maximum, 0);
+=======
+		Assert.assertEquals(3.9f, maximum,0);
+>>>>>>> UC3_findMaximumString
 	}
 
 	//Maximum Float Value At Second Position
