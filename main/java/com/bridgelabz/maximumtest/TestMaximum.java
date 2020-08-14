@@ -1,17 +1,8 @@
 package com.bridgelabz.maximumtest;
 
 public class TestMaximum {
-	Integer number1;
-	Integer number2;
-	Integer number3;
 
-	TestMaximum(Integer number1, Integer number2, Integer number3){
-		this.number1 = number1;
-		this.number2 = number2;
-		this.number3 = number3;
-	}
-
-	public Integer numberHavingMaximumValue(){
+	public Integer numberHavingMaximumValue(Integer number1, Integer number2, Integer number3){
 		Integer maximum = number1;
 		if(number2.compareTo(number1) > 0){
 			maximum = number2;
@@ -21,4 +12,16 @@ public class TestMaximum {
 		}
 		return maximum;
 	}
+
+	public Float floatNumberHavingMaximumValue(Float floatNumber1, Float floatNumber2, Float floatNumber3){
+		Float maximum = floatNumber1;
+		if(floatNumber2.compareTo(floatNumber1) > 0){
+			maximum = floatNumber2;
+		}
+		if(floatNumber3.compareTo(floatNumber2) > 0){
+			maximum = floatNumber3;
+		}
+		return maximum;
+	}
 }
+
