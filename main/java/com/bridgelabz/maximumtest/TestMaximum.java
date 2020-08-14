@@ -23,5 +23,17 @@ public class TestMaximum {
 		}
 		return maximum;
 	}
+
+	public String stringHavingMaximumValue(String string1, String string2, String string3){
+		String maximum = string1;
+		if(string2.compareTo(maximum) > 0){
+			maximum = string2;
+		}
+		if(string3.compareTo(maximum) > 0){
+			maximum = string3;
+		}
+		return maximum;
+	}
 }
+
 
