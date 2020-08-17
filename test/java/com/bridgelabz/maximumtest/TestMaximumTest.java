@@ -43,8 +43,6 @@ public class TestMaximumTest {
 		TestMaximum maximumFloatNumber = new TestMaximum();
 		float maximum = (float) maximumFloatNumber.testingMaximumValue(3.9f, 2.8f, 1.6f, 2.6f);
 		Assert.assertEquals(3.9f, maximum, 0);
-		Assert.assertEquals(3.9f, maximum,0);
-
 	}
 
 	//Maximum Float Value At Second Position
